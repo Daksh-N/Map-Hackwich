@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61FAD0A29969E49008EC683 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61FAD0929969E49008EC683 /* LocationManager.swift */; };
 		B6BDB8932993F99F00F24383 /* Map_HackwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BDB8922993F99F00F24383 /* Map_HackwichApp.swift */; };
 		B6BDB8952993F99F00F24383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BDB8942993F99F00F24383 /* ContentView.swift */; };
 		B6BDB8972993F9A100F24383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BDB8962993F9A100F24383 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B61FAD0929969E49008EC683 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B6BDB88F2993F99F00F24383 /* Map Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BDB8922993F99F00F24383 /* Map_HackwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_HackwichApp.swift; sourceTree = "<group>"; };
 		B6BDB8942993F99F00F24383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				B6BDB8922993F99F00F24383 /* Map_HackwichApp.swift */,
 				B6BDB8942993F99F00F24383 /* ContentView.swift */,
+				B61FAD0929969E49008EC683 /* LocationManager.swift */,
 				B6BDB8962993F9A100F24383 /* Assets.xcassets */,
 				B6BDB8982993F9A100F24383 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				B6BDB8952993F99F00F24383 /* ContentView.swift in Sources */,
 				B6BDB8932993F99F00F24383 /* Map_HackwichApp.swift in Sources */,
+				B61FAD0A29969E49008EC683 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +424,7 @@
 				DEVELOPMENT_TEAM = Y9QJ22KDW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +454,7 @@
 				DEVELOPMENT_TEAM = Y9QJ22KDW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
